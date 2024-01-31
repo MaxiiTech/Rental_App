@@ -43,8 +43,8 @@ function CarsFiltersOption({carsList,setBrand,orderCarList}:any) {
             Manufacturer
           </option>
           {brandList&&brandList.map((brand:string,index:number)=>(
-            <option key={index}>{brand}</option>
-          ))}
+           <option key={brand}>{brand}</option>
+           ))}
           
           
         </select>
