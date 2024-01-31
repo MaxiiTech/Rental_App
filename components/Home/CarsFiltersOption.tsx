@@ -10,6 +10,7 @@ function CarsFiltersOption({carsList,setBrand,orderCarList}:any) {
     {
       filterCarList();
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   },[carsList])
     const filterCarList =()=>{
       carsList.forEach((element:any)=> {
