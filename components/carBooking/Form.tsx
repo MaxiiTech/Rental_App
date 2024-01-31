@@ -20,7 +20,7 @@ function Form({car}:any) {
     useEffect(()=>{
         getStoreLocation_();
 
-    },[])
+    },[formValue])
     useEffect(()=>{
         if(car)
         {
